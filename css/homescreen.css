@@ -13,7 +13,7 @@ h1 {
     font-family: Arial, sans-serif;
     font-weight: 900;
     font-style: italic;
-    font-size: 45px;
+    font-size: clamp(24px, 4vw, 45px);
     position: fixed;
     top: 0;
     left: 0;
