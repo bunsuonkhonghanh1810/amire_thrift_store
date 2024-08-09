@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Ví dụ tạo 3 cột */
+    gap: 20px;
+}
+.grid-item {
+    background-color: #ccc; /* Màu nền để dễ nhận diện */
+    padding: 20px;
+}
+
+/* Ô lưới cần chia nhỏ */
+.grid-item.special {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Ví dụ chia thành 2 cột */
+    grid-template-rows: auto auto; /* Ví dụ chia thành 2 hàng */
+    gap: 10px;
+}
