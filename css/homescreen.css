@@ -11,7 +11,7 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
-    h1 {
+    #heading {
         font-weight: 900;
         font-style: italic;
         font-size: 45px;
@@ -25,6 +25,7 @@ body {
         box-shadow: 0 4px 8px rgba(70, 68, 68, 0.053);
         margin: 0;
         z-index: 1000;
+        text-decoration: none;
     }
     
     #model {
